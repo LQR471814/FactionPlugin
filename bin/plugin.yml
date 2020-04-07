@@ -1,0 +1,26 @@
+name: FactionPlugin
+version: 0.1
+author: LQR471814
+main: me.LQR471814.FactionPlugin.Main
+description: A plugin that does some things with the concept of factions.
+api-version: 1.15
+commands:
+  faction:
+    description: The Faction Command 
+                 Actions -> create - Create a faction (/faction create faction_name)
+                            invite - Invite people to your faction (/faction invite player_name)
+                            invitelist - Show list of invites (/faction invitelist)
+                            leave - Leave the faction you are currently in (/faction leave)
+                            disband - Disband a faction you are a part of (/faction disband)
+                            info - Get information on a faction (/faction info faction_name)
+                            chat - Toggle faction chat and all chat. (/faction chat)
+                            join - Accept an invitation to a faction (/faction join faction_name)
+                            claim - Claim the chunk you are currently in (/faction claim)
+                            unclaim - Unclaim the chunk you are currently in (/faction unclaim)
+                            unclaimall - Unclaim all chunks claimed (/faction unclaimall)
+    usage: /faction action *args
+    aliases: [f, guild, g]
+  factionchat:
+    description: Send a message to all your fellow Faction members
+    usage: /factionchat message
+    aliases: [fc, fchat, gc, gchat, guildchat]

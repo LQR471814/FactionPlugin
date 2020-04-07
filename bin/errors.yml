@@ -1,0 +1,16 @@
+ERROR_001: Failed to write to faction file during faction creation OR 
+           Failed to convert faction object to JSON format during the faction creation process.
+ERROR_002: Failed to write to playerData file during faction creation OR
+           Failed to convert playerData object to JSON format during the faction creation process.
+ERROR_003: Failed to read faction file while reading PlayerData file was a success
+           This could mean a couple of things,
+           The PlayerData file wasn't altered after the player left the faction
+           There could be a problem with reading the faction file
+           The faction file was deleted manually.
+ERROR_004: Failed to create file during the faction creation process.
+ERROR_005: Failed to create file while inviting player.
+ERROR_006: Failed to read PlayerData file.
+ERROR_007: Failed to delete faction file while trying to disband faction, this can be because,
+           The faction doesn't exist but the player data file still reports that the player does indeed exist in the faction
+ERROR_008: Failed to unclaim all land because it failed to delete the land file.
+ERROR_009: Failed to write PlayerData file.

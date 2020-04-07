@@ -1,0 +1,6 @@
+WARN_001: Either user error OR a problem has occurred trying to read the given faction file
+WARN_002: Either user error OR a problem has occurred trying to read the given playerData file
+WARN_003: Either user is trying to join a faction that used to exist and invited the player but no longer exists OR
+          An error occurred trying to read given faction file
+WARN_004: Either user isn't in a faction OR refer to ERROR_003
+WARN_005: Either user hasn't claimed any land OR and error has occurred trying to read land file.
